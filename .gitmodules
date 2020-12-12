@@ -1,0 +1,6 @@
+[submodule "components/esp-sr"]
+	path = components/esp-sr
+	url = https://github.com/espressif/esp-sr.git
+[submodule "components/remote/IRremoteESP8266"]
+	path = components/remote/IRremoteESP8266
+	url = https://github.com/crankyoldgit/IRremoteESP8266.git
