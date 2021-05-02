@@ -63,7 +63,7 @@ private:
     i2s_config.sample_rate = 16000;
     i2s_config.channel_format = I2S_CHANNEL_FMT_RIGHT_LEFT;
     i2s_config.bits_per_sample = I2S_BITS_PER_SAMPLE_32BIT;
-    i2s_config.communication_format = I2S_COMM_FORMAT_I2S;
+    i2s_config.communication_format = I2S_COMM_FORMAT_STAND_I2S;
     i2s_config.dma_buf_count = 3;
     i2s_config.dma_buf_len = 300;
     i2s_config.intr_alloc_flags = ESP_INTR_FLAG_LEVEL2;
